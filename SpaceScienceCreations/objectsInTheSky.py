@@ -12,6 +12,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from matplotlib.widgets import Slider
 
+#BEFORE RUNNING, these four kernels must be added to project directory. They can be found here: https://naif.jpl.nasa.gov/pub/naif/generic_kernels/
 spiceypy.furnsh("./kernels/lsk/naif0012.tls")
 spiceypy.furnsh("./kernels/spk/de432s.bsp")
 spiceypy.furnsh("./kernels/pck/gm_de431.tpc")
